@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const SYSTEM1_API = 'http://localhost:8081';
-const SYSTEM2_API = 'http://localhost:8082';
+const SYSTEM1_API = 'https://banking-system-using-react-and.onrender.com';
+const SYSTEM2_API = 'https://banking-system-using-react-and-l576.onrender.com';
 
 export type TransactionType = 'withdraw' | 'topup';
 
