@@ -3,9 +3,9 @@ import {
   getCardInfo,
   getCardTransactions,
   processTransaction,
-  Transaction,
-  TransactionType,
 } from '../services/api';
+import type { Transaction, TransactionType } from '../services/api';
+
 
 import './CustomerDashboard.css';
 
