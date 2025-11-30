@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5173", "https://banking-system-using-react-and-spri.vercel.app")
+@CrossOrigin(origins = "https://banking-system-using-react-and-spri.vercel.app")
 public class TransactionController {
 
     private final RestTemplate restTemplate;
