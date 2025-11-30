@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react';
-import { getAllTransactions, Transaction } from '../services/api';
+import { getAllTransactions } from '../services/api';
+import type { Transaction } from '../services/api';
+
 
 import './AdminDashboard.css';
 
